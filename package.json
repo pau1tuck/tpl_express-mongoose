@@ -1,5 +1,5 @@
 {
-	"name": "tpl_apollo-typeorm",
+	"name": "tpl_express-mongoose",
 	"version": "3.1.0",
 	"main": "dist/index.js",
 	"license": "ISC",
@@ -8,10 +8,7 @@
 		"dev": "tsc -w && nodemon ./dist/index.js",
 		"start": "npm run build && node ./dist/index.js"
 	},
-	"dependencies": {
-		"@apollo/server": "^4.9.5",
-		"graphql": "^16.8.1"
-	},
+	"dependencies": {},
 	"devDependencies": {
 		"@types/node": "^20.9.4",
 		"nodemon": "^3.0.1",
